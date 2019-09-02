@@ -25,6 +25,12 @@ public final class EnvUtils {
         return Env.LOCAL;
       case "TOOLS":
         return Env.TOOLS;
+      case "TEST":
+        return Env.TEST;
+      case "ONLINE":
+        return Env.ONLINE;
+      case "PREONLINE":
+        return Env.PREONLINE;
       default:
         return Env.UNKNOWN;
     }
